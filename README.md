@@ -32,6 +32,10 @@ The task is episodic, and in order to solve the environment, our agent must get 
 
 3. Follow the instructions in `Navigation.ipynb` to get started with training the agent! You can change the hyperparameter as well!
 
+4. You can loading the pretrained model weight by following:
+```
+agent.qnetwork_local.load_state_dict(torch.load('checkpoint.pth'))
+```
 ## Visualizing Results
 
 The average scores over 2000 iterations:
