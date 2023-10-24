@@ -1,11 +1,3 @@
-[//]: # (Image References)
-
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
-
-# Project 1: Navigation
-
-### Introduction
-
 # Project-Navigation---DRL
 A project for training an agent to navigate (and collect bananas) in a large, square world using the Unity Environment
 
@@ -41,3 +33,5 @@ The task is episodic, and in order to solve the environment, our agent must get 
 3. Follow the instructions in `Navigation.ipynb` to get started with training the agent! You can change the hyperparameter as well!
 
 (_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
+
+![plot](result.png)
