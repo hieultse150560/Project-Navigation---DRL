@@ -26,12 +26,10 @@ The task is episodic, and in order to solve the environment, our agent must get 
     
     (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
-    (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
-
 2. Place the file in the working folder, and unzip (or decompress) the file. 
 
 3. Follow the instructions in `Navigation.ipynb` to get started with training the agent! You can change the hyperparameter as well!
 
-(_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
-
+## Visualizing Results
+The average scores over 2000 iterations:
 ![plot](result.png)
