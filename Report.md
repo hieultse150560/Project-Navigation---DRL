@@ -24,7 +24,7 @@ The average scores over 2000 iterations:
 
 ![plot](result.png)
 
- The number of episodes needed to solve the environment is at about iteration 500.
+ The number of episodes needed to solve the environment is at about iteration 600 (with the average score from iteration 500-600 is 13.49)
 
 # Improvement 
 We can improve the algorithm by Prioritized Experience Relay (Create a weight for to assign priorities to each tuple with larger errors when sampling) or Dueling DQN with estimation the state values and state-action values as desired Q-values.
