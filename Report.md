@@ -20,4 +20,12 @@ The update is the same as for DQN, but replacing the target $Y_{t}^{DQN}$ with:
 Compared to the original formulation of Double Q-Learning, in Double DQN the weights of the second network are replaced with the weights of the target network for the evaluation of the current greedy policy.
 
 # Result
+The average scores over 2000 iterations:
+
+![plot](result.png)
+
+ The number of episodes needed to solve the environment is at about iteration 500.
+
+# Improvement 
+We can improve the algorithm by Prioritized Experience Relay (Create a weight for to assign priorities to each tuple with larger errors when sampling) or Dueling DQN with estimation the state values and state-action values as desired Q-values.
 
