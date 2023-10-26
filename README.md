@@ -20,15 +20,9 @@ The task is episodic, and in order to solve the environment, our agent must get 
 
 ## Getting Started
 
-1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
-    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
-    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
-    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
-    
-    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
+1. Download the entire repository and unzip (or decompress) the python.taz
 
-2. Place the file in the working folder, and unzip (or decompress) the file. 
+2. Place the "python" folder in the working folder.
 
 3. Follow the instructions in `Navigation.ipynb` to get started with training the agent! You can change the hyperparameter as well!
 
